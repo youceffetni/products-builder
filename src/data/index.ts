@@ -1,4 +1,4 @@
-import { IProduct } from "../interfaces";
+import { IFormInput, IProduct } from "../interfaces";
 
 
 export const products:IProduct[]=[
@@ -60,4 +60,35 @@ export const products:IProduct[]=[
             thumbanil:"https://cdn.dummyjson.com/product-images/1/thumbnail.jpg"
         }
     },
+]
+
+
+
+export const formInputList:IFormInput[]=[
+
+    {
+        id:"title",
+        name:"title",
+        label:"Product title",
+        type:"text"
+    },
+    {
+        id:"description",
+        name:"description",
+        label:"Description",
+        type:"text"
+    }
+    ,
+    {
+        id:"image",
+        name:"thumbnail",
+        label:"Product image url",
+        type:"text"
+    },{
+        id:"price",
+        name:"price",
+        label:"Price",
+        type:"text"
+    },
+   
 ]

@@ -8,7 +8,7 @@ className?:string;
 const Button=({className,children,...rest}:IProps)=>{
 
   return (
-    <button className={"p-2 rounded-md text-white " + className} {...rest}>
+    <button className={"p-2 rounded-md text-white transition active:translate-y-0.5 " + className} {...rest}>
       {children}
      
     </button>

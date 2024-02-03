@@ -10,3 +10,11 @@ export interface IProduct{
         thumbanil:string
     }
 }
+
+
+export interface IFormInput{
+    id:string,
+    name:"title" |"thumbnail" | "description" | "price",
+    label:string,
+    type:string
+}

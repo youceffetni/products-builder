@@ -12,6 +12,9 @@ export interface IProduct{
 }
 
 
+
+
+
 export interface IFormInput{
     id:string,
     name:"title" |"thumbnail" | "description" | "price",
